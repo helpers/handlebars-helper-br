@@ -1,0 +1,36 @@
+{
+  "name": "handlebars-helper-br",
+  "description": "{{br}} Handlebars helper. Adds `<br>` tags to generated HTML. Great for prototyping.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/handlebars-helper-br",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpers/handlebars-helper-br.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/handlebars-helper-br/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helpers/handlebars-helper-br/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "lodash": "~2.4.0"
+  },
+  "keywords": [
+    "assemble",
+    "assemblehelper",
+    "br",
+    "break",
+    "handlebars helper",
+    "handlebars",
+    "helper"
+  ]
+}
