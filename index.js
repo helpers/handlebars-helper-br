@@ -15,10 +15,8 @@ module.exports.register = function (Handlebars) {
    * @xample: {{br 5}}
    */
   Handlebars.registerHelper('br', function(count) {
-    count = count - 1;
-
     var content = [];
-    for (var i = 0; i <= count; i++) {
+    for (var i = 0; i < count; i++) {
       content.push('<br>');
     }
     return new Handlebars.SafeString(content.join(''));
